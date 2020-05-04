@@ -9,15 +9,4 @@ def solution(x, y):
     d = x + y - 1
     start = sum_series(d - 1)
     k = start + x
-    print("x, y", x, y)
-    print("depth", d)
-    print("k", k)
-    print("---")
     return str(k)
-
-
-solution(3, 2)
-solution(5, 10)
-solution(5, 1)
-solution(5, 2)
-solution(2, 4)

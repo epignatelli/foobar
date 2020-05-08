@@ -18,8 +18,7 @@ def bfs(maze, pos):
                     # hit a wall
                     if maze[child[0]][child[1]] == 1:
                         continue
-                    queue.append(child) 
-
+                    queue.append(child)
     return level
 
 def solution(maze):
